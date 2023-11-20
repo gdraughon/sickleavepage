@@ -1,0 +1,97 @@
+#FFEED9
+#87C4FF
+#39A7FF
+#E0F4FF
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Original Surfer', sans-serif;
+    background-color: #ffffff;
+    border: 4px solid black;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    width: 100%;
+    background-color: #87C4FF;
+}
+
+h1 {
+    padding-left: .5em;
+    font-family: 'Original Surfer';
+    font-size: 3em;
+}
+
+.logo-img {
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: inherit;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+color: #39A7FF;
+text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-grow: 1;
+    max-width: 960px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    border: 3px solid #39A7FF;
+    padding: 20px;
+}
+
+.img-photo {
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    text-transform: uppercase;
+    background-color: #FFEED9;
+}
+footer p {
+    padding: 0 1.5em;
+    color: #87C4FF;
+}
